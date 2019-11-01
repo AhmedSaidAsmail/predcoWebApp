@@ -1,0 +1,27 @@
+// colors
+@colorRed:#e60513;
+@colorBlack:#1e1d1b;
+@colorYoutube:#c4302b;
+@colorTwitter:#00acee;
+@colorFacebook:#3b5998;
+// fonts
+@fontElMessiri: 'El Messiri', sans-serif;
+@font_1:@fontElMessiri;
+@direction: rtl;
+.absolute-aspect-ration() {
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+}
+.textShadow(@opacity){
+  text-shadow: 1px 0 1px @opacity,-1px 0 1px @opacity,0 1px 1px @opacity,0 -1px 1px @opacity;
+}
+.padding(@padding){
+  padding-right: @padding;
+}
+
+// media widths
+@max-797: ~"screen and (max-width:797px)";
